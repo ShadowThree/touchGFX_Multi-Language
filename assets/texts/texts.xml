@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.2">
+  <Languages>
+    <Language Id="EN" />
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_F0AK" Alignment="Center" TypographyId="Default">
+        <Translation Language="EN" Alignment="Center">中文</Translation>
+        <Translation Language="GB" Alignment="Center">中文</Translation>
+      </Text>
+      <Text Id="__SingleUse_13O5" Alignment="Center" TypographyId="Default">
+        <Translation Language="EN" Alignment="Center">English</Translation>
+        <Translation Language="GB" Alignment="Center">English</Translation>
+      </Text>
+      <Text Id="__SingleUse_NJP3" Alignment="Center" TypographyId="Default">
+        <Translation Language="EN" Alignment="Center">show "Scissors"</Translation>
+        <Translation Language="GB" Alignment="Center">show "剪刀"</Translation>
+      </Text>
+      <Text Id="__SingleUse_0P7G" Alignment="Center" TypographyId="Default">
+        <Translation Language="EN" Alignment="Center">show "Cloth"</Translation>
+        <Translation Language="GB" Alignment="Center">show "布"</Translation>
+      </Text>
+      <Text Id="__SingleUse_W9EU" Alignment="Center" TypographyId="Default">
+        <Translation Language="EN" Alignment="Center">show "Storn"</Translation>
+        <Translation Language="GB" Alignment="Center">show "石头"</Translation>
+      </Text>
+      <Text Id="__SingleUse_B0Z7" Alignment="Center" TypographyId="Large">
+        <Translation Language="EN" Alignment="Center">text: &lt;value&gt;</Translation>
+        <Translation Language="GB" Alignment="Center">text: &lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="STKAITI.TTF" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="STKAITI.TTF" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="石头剪刀布">
+      <LanguageSetting Language="EN" Font="vrinda.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="a-z,A-Z" />
+    </Typography>
+  </Typographies>
+</TextDatabase>
